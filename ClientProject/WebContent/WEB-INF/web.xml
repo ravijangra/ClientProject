@@ -8,12 +8,14 @@
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
+    <welcome-file>myclient.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
     <description></description>
     <display-name>ClientServlet</display-name>
     <servlet-name>ClientServlet</servlet-name>
     <servlet-class>com.client.ClientServlet</servlet-class>
+    
   </servlet>
   <servlet-mapping>
     <servlet-name>ClientServlet</servlet-name>
